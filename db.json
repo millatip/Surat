@@ -1,65 +1,67 @@
-[
-  {
-    "noSurat": "5d07277412c266f9a417c8cd",
-    "tanggalMasuk": "Sunday, January 14, 2018 10:44 AM",
-    "perihal": "fugiat ut cupidatat",
-    "asalSurat": "PYRAMAX",
-    "lampiran": "est magna et"
-  },
-  {
-    "noSurat": "5d072774a51496dc49a0ed0d",
-    "tanggalMasuk": "Wednesday, November 23, 2016 10:02 PM",
-    "perihal": "Lorem consequat dolor",
-    "asalSurat": "BITTOR",
-    "lampiran": "occaecat reprehenderit qui"
-  },
-  {
-    "noSurat": "5d0727749ea88c681508f001",
-    "tanggalMasuk": "Tuesday, September 11, 2018 4:49 AM",
-    "perihal": "laborum in voluptate",
-    "asalSurat": "EVIDENDS",
-    "lampiran": "sint incididunt sit"
-  },
-  {
-    "noSurat": "5d07277445fb001501bc98d1",
-    "tanggalMasuk": "Thursday, December 18, 2014 7:51 AM",
-    "perihal": "velit fugiat minim",
-    "asalSurat": "ZBOO",
-    "lampiran": "laborum nulla sunt"
-  },
-  {
-    "noSurat": "5d0727749a4146b8894ef153",
-    "tanggalMasuk": "Saturday, May 5, 2018 1:31 PM",
-    "perihal": "mollit occaecat mollit",
-    "asalSurat": "AQUAMATE",
-    "lampiran": "deserunt adipisicing mollit"
-  },
-  {
-    "noSurat": "5d072774696dfbc88011e516",
-    "tanggalMasuk": "Sunday, August 21, 2016 2:35 PM",
-    "perihal": "aliquip occaecat qui",
-    "asalSurat": "MEDESIGN",
-    "lampiran": "voluptate dolor sit"
-  },
-  {
-    "noSurat": "5d0727746baaf7780944f541",
-    "tanggalMasuk": "Friday, August 22, 2014 12:00 AM",
-    "perihal": "nisi id tempor",
-    "asalSurat": "MOTOVATE",
-    "lampiran": "minim culpa adipisicing"
-  },
-  {
-    "noSurat": "5d072774c292470397879c1c",
-    "tanggalMasuk": "Tuesday, September 5, 2017 6:07 AM",
-    "perihal": "proident eu occaecat",
-    "asalSurat": "COMVEY",
-    "lampiran": "ad magna minim"
-  },
-  {
-    "noSurat": "5d072774caf3bf473a17eb67",
-    "tanggalMasuk": "Saturday, September 29, 2018 6:45 PM",
-    "perihal": "voluptate exercitation esse",
-    "asalSurat": "GEEKOSIS",
-    "lampiran": "minim eu voluptate"
-  }
-]
+{
+  "mails": [
+    {
+      "noSurat": "5d07277412c266f9a417c8cd",
+      "tanggalMasuk": "Sunday, January 14, 2018 10:44 AM",
+      "perihal": "fugiat ut cupidatat",
+      "asalSurat": "PYRAMAX",
+      "lampiran": "est magna et"
+    },
+    {
+      "noSurat": "5d072774a51496dc49a0ed0d",
+      "tanggalMasuk": "Wednesday, November 23, 2016 10:02 PM",
+      "perihal": "Lorem consequat dolor",
+      "asalSurat": "BITTOR",
+      "lampiran": "occaecat reprehenderit qui"
+    },
+    {
+      "noSurat": "5d0727749ea88c681508f001",
+      "tanggalMasuk": "Tuesday, September 11, 2018 4:49 AM",
+      "perihal": "laborum in voluptate",
+      "asalSurat": "EVIDENDS",
+      "lampiran": "sint incididunt sit"
+    },
+    {
+      "noSurat": "5d07277445fb001501bc98d1",
+      "tanggalMasuk": "Thursday, December 18, 2014 7:51 AM",
+      "perihal": "velit fugiat minim",
+      "asalSurat": "ZBOO",
+      "lampiran": "laborum nulla sunt"
+    },
+    {
+      "noSurat": "5d0727749a4146b8894ef153",
+      "tanggalMasuk": "Saturday, May 5, 2018 1:31 PM",
+      "perihal": "mollit occaecat mollit",
+      "asalSurat": "AQUAMATE",
+      "lampiran": "deserunt adipisicing mollit"
+    },
+    {
+      "noSurat": "5d072774696dfbc88011e516",
+      "tanggalMasuk": "Sunday, August 21, 2016 2:35 PM",
+      "perihal": "aliquip occaecat qui",
+      "asalSurat": "MEDESIGN",
+      "lampiran": "voluptate dolor sit"
+    },
+    {
+      "noSurat": "5d0727746baaf7780944f541",
+      "tanggalMasuk": "Friday, August 22, 2014 12:00 AM",
+      "perihal": "nisi id tempor",
+      "asalSurat": "MOTOVATE",
+      "lampiran": "minim culpa adipisicing"
+    },
+    {
+      "noSurat": "5d072774c292470397879c1c",
+      "tanggalMasuk": "Tuesday, September 5, 2017 6:07 AM",
+      "perihal": "proident eu occaecat",
+      "asalSurat": "COMVEY",
+      "lampiran": "ad magna minim"
+    },
+    {
+      "noSurat": "5d072774caf3bf473a17eb67",
+      "tanggalMasuk": "Saturday, September 29, 2018 6:45 PM",
+      "perihal": "voluptate exercitation esse",
+      "asalSurat": "GEEKOSIS",
+      "lampiran": "minim eu voluptate"
+    }
+  ]
+}
