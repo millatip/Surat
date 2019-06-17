@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/action_inbox"
+            android:title="@string/inbox"
+            android:icon="@drawable/ic_inbox_black_24dp"/>
+    <item
+            android:id="@+id/action_outbox"
+            android:title="@string/outbox"
+            android:icon="@drawable/ic_send_black_24dp"/>
+    <!--<item
+            android:id="@+id/action_disposisi"
+            android:title="@string/inbox"
+            android:icon="@drawable/ic_person_black_24dp"/>
+    <item
+            android:id="@+id/action_terusan"
+            android:title="@string/inbox"
+            android:icon="@drawable/ic_person_black_24dp"/>-->
+    <item
+            android:id="@+id/action_profile"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_person_black_24dp"/>
+
+</menu>
