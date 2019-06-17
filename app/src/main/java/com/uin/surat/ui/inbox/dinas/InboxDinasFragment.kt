@@ -9,10 +9,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 
 import com.uin.surat.R
-import com.uin.surat.models.EmailModel
+import com.uin.surat.models.Surat
 import kotlinx.android.synthetic.main.fragment_inbox_dinas.*
 import kotlinx.android.synthetic.main.fragment_inbox_dinas.swipeRefreshLayout
-import kotlinx.android.synthetic.main.fragment_inbox_personal.*
 
 
 class InboxDinasFragment : Fragment() {
@@ -31,7 +30,7 @@ class InboxDinasFragment : Fragment() {
 //        displayEmails(emails = )
     }
 
-    private fun displayEmails(emails: List<EmailModel>){
+    private fun displayEmails(emails: List<Surat>){
         swipeRefreshLayout.isRefreshing = false
         val adapter = InboxDinasAdapter(emails)
         rvDinasInbox.adapter = adapter

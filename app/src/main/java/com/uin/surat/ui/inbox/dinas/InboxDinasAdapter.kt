@@ -5,10 +5,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.uin.surat.R
-import com.uin.surat.models.EmailModel
+import com.uin.surat.models.Surat
 import kotlinx.android.synthetic.main.mail_item.view.*
 
-class InboxDinasAdapter (private  val emails: List<EmailModel>) : RecyclerView.Adapter<InboxDinasAdapter.ViewHolder>(){
+class InboxDinasAdapter (private  val emails: List<Surat>) : RecyclerView.Adapter<InboxDinasAdapter.ViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder = ViewHolder (
         LayoutInflater.from(parent.context).inflate(
@@ -23,7 +23,7 @@ class InboxDinasAdapter (private  val emails: List<EmailModel>) : RecyclerView.A
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        fun bindItem(email : EmailModel){
+        fun bindItem(email : Surat){
             itemView.tvEmailSender.text = email.senderEmail
             itemView.tvEmailTitle.text = email.titleEmail
             itemView.tvEmailDetails.text = email.descriptionEmail
