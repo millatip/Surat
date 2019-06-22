@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface MailApi {
 
-    @GET("/mails")
+    @GET("/millatip/surat/mails")
     fun getMails(): Observable<List<Surat>>
 }

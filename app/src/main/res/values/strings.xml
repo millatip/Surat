@@ -18,6 +18,9 @@
     <string name="app_name">Surat UIN Sunan Kalijaga</string>
     <string name="theme_name_hint">Theme name...</string>
 
+    <string name="retry">Retry</string>
+    <string name="post_error">An error occurred while loading the posts</string>
+
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu

@@ -1,33 +1,42 @@
 package com.uin.surat.ui.inbox.dinas
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.uin.surat.R
+import com.uin.surat.databinding.MailItemBinding
 import com.uin.surat.models.Surat
-import kotlinx.android.synthetic.main.mail_item.view.*
+import com.uin.surat.ui.inbox.mail.MailViewModel
 
-class InboxDinasAdapter (private  val emails: List<Surat>) : RecyclerView.Adapter<InboxDinasAdapter.ViewHolder>(){
+class InboxDinasAdapter  : RecyclerView.Adapter<InboxDinasAdapter.ViewHolder>(){
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder = ViewHolder (
-        LayoutInflater.from(parent.context).inflate(
-            R.layout.mail_item, parent, false
-        )
-    )
+    private lateinit var mailList: List<Surat>
 
-    override fun getItemCount(): Int = emails.size
-
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bindItem(emails[position])
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder{
+        val binding: MailItemBinding = DataBindingUtil.inflate(LayoutInflater.from(parent.context), R.layout.mail_item, parent, false)
+        return ViewHolder(binding)
     }
 
-    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        fun bindItem(email : Surat){
-            itemView.tvEmailSender.text = email.senderEmail
-            itemView.tvEmailTitle.text = email.titleEmail
-            itemView.tvEmailDetails.text = email.descriptionEmail
-            itemView.tvEmailTime.text = email.dateEmail
+    override fun getItemCount(): Int {
+        return if(::mailList.isInitialized) mailList.size else 0
+    }
+
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        holder.bind(mailList[position])
+    }
+
+    fun updateMailList(mailList: List<Surat>){
+        this.mailList = mailList
+        notifyDataSetChanged()
+    }
+
+    class ViewHolder(private val binding: MailItemBinding) : RecyclerView.ViewHolder(binding.root){
+        private val viewModel = MailViewModel()
+
+        fun bind(mail: Surat){
+            viewModel.bind(mail)
+            binding.viewModel = viewModel
         }
     }
 

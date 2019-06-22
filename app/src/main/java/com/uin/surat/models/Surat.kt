@@ -1,5 +1,9 @@
 package com.uin.surat.models
 
-data class Surat (val noSurat: String?, val asalSurat: String?, val perihal: String?, val lampiran: String?,
-                  val timeEmail: String?, val dateEmail: String? )
+
+data class Surat (val noSurat: String?,
+                  val tanggalMasuk: String?,
+                  val perihal: String?,
+                  val asalSurat: String?,
+                  val lampiran: String?)
 
